@@ -10,6 +10,7 @@ public class GoogleTest {
 	private WebDriver driver;	
 	@Test
 	public void testEasy() {
+		System.out.println("Executing test");
 		driver.get("http://www.google.com");  
 		String title = driver.getTitle();				 
 		System.out.println(title);
